@@ -1,0 +1,24 @@
+
+
+body {
+	
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+.para {
+	font-size: 400%;
+	color: green;	
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.roomdetails {
+	padding-top: 0px;	
+}
+
+ul {	
+	list-style-type: circle;
+	font-size: 200%;
+
+}
