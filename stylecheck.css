@@ -1,24 +1,55 @@
 
-
 body {
 	
 	font-family: "Times New Roman", Georgia, Serif;
+	background-color: cyan;
+	background: url("http://homedesignapps.com/wp-content/uploads/2016/12/White-Living-Room-Interior-Style-Modern-Kits-Furniture.jpg");
+}
+
+.roomtitle {
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 4em;
+	font-weight: 400;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	text-shadow: 1px 1px 0 #fff, 2px 2px 0 #bbb;
+}
+
+hr {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+	margin: 25px 0;
+	clear: both;
+
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0; 
+}
 }
 
 .para {
-	font-size: 400%;
-	color: green;	
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;	
+	font-weight: 400; 		
 	margin: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding: 0px;	
 }
 
 .roomdetails {
-	padding-top: 0px;	
+	padding: 2px, 2px, 2px, 2px;
+	border: 1px solid #ddd;	
+}
+h2 {
+	color: #999;
 }
 
 ul {	
 	list-style-type: circle;
-	font-size: 200%;
+	font-size: 200%;	
 
 }
