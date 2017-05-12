@@ -23,12 +23,12 @@ function roomApp(){
 }
 
 roomApp.prototype.showMeetinFunction = function(){  
-    document.getElementById('locID').value = this.meetings.location;
-    document.getElementById('numID').value = this.meetings.numberOfSeats;
-    document.getElementById('rmOID').value = this.meetings.roomsOccupied;
-    document.getElementById('rmAID').value = this.meetings.numberOfRooms - this.meetings.roomsOccupied;
-    document.getElementById('rmTotal').value = this.games.numberOfRooms;
-    document.getElementById('drt').value = this.meetings.Duration;
+    document.getElementById('locID').innerHTML = this.meetings.location;
+    document.getElementById('numID').innerHTML = this.meetings.numberOfSeats;
+    document.getElementById('rmOID').innerHTML = this.meetings.roomsOccupied;
+    document.getElementById('rmAID').innerHTML = this.meetings.numberOfRooms - this.meetings.roomsOccupied;
+    document.getElementById('rmTotal').innerHTML = this.games.numberOfRooms;
+    //document.getElementById('drt').value = this.meetings.Duration;
     this.currentLocation = 'meetings'
         //checks if room is full
     if((this.meetings.numberOfRooms - this.meetings.roomsOccupied)===0){
@@ -40,12 +40,12 @@ roomApp.prototype.showMeetinFunction = function(){
   }
 
 roomApp.prototype.showGamesFunction = function(){  
-    document.getElementById('locID').value = this.games.location;
-    document.getElementById('numID').value = this.games.numberOfSeats;
-    document.getElementById('rmOID').value = this.games.roomsOccupied;
-    document.getElementById('rmAID').value = this.games.numberOfRooms - this.games.roomsOccupied;
-    document.getElementById('drt').value = this.games.Duration;
-    document.getElementById('rmTotal').value = this.games.numberOfRooms;
+    document.getElementById('locID').innerHTML = this.games.location;
+    document.getElementById('numID').innerHTML = this.games.numberOfSeats;
+    document.getElementById('rmOID').innerHTML = this.games.roomsOccupied;
+    document.getElementById('rmAID').innerHTML = this.games.numberOfRooms - this.games.roomsOccupied;
+    //document.getElementById('drt').value = this.games.Duration;
+    document.getElementById('rmTotal').innerHTML = this.games.numberOfRooms;
     this.currentLocation = 'games'
         //checks if room is full
     if((this.games.numberOfRooms - this.games.roomsOccupied)===0){
@@ -57,12 +57,12 @@ roomApp.prototype.showGamesFunction = function(){
   }
 
 roomApp.prototype.showQuiteTimeFunction = function(){  
-    document.getElementById('locID').value = this.quiteTime.location;
-    document.getElementById('numID').value = this.quiteTime.numberOfSeats;
-    document.getElementById('rmOID').value = this.quiteTime.roomsOccupied;
-    document.getElementById('rmAID').value = this.quiteTime.numberOfRooms - this.quiteTime.roomsOccupied;
-    document.getElementById('rmTotal').value = this.quiteTime.numberOfRooms;
-    document.getElementById('drt').value = this.quiteTime.Duration;
+    document.getElementById('locID').innerHTML = this.quiteTime.location;
+    document.getElementById('numID').innerHTML = this.quiteTime.numberOfSeats;
+    document.getElementById('rmOID').innerHTML = this.quiteTime.roomsOccupied;
+    document.getElementById('rmAID').innerHTML = this.quiteTime.numberOfRooms - this.quiteTime.roomsOccupied;
+    document.getElementById('rmTotal').innerHTML = this.quiteTime.numberOfRooms;
+    //document.getElementById('drt').value = this.quiteTime.Duration;
     this.currentLocation = 'quiteTime'
         //checks if room is full
     if((this.quiteTime.numberOfRooms - this.quiteTime.roomsOccupied)===0){
@@ -74,12 +74,12 @@ roomApp.prototype.showQuiteTimeFunction = function(){
   }
 
 roomApp.prototype.showLearningFunction = function(){  
-    document.getElementById('locID').value = this.learning.location;
-    document.getElementById('numID').value = this.learning.numberOfSeats;
-    document.getElementById('rmOID').value = this.learning.roomsOccupied;
-    document.getElementById('rmAID').value = this.learning.numberOfRooms - this.learning.roomsOccupied;
-    document.getElementById('rmTotal').value = this.learning.numberOfRooms;
-    document.getElementById('drt').value = this.learning.Duration;
+    document.getElementById('locID').innerHTML = this.learning.location;
+    document.getElementById('numID').innerHTML = this.learning.numberOfSeats;
+    document.getElementById('rmOID').innerHTML = this.learning.roomsOccupied;
+    document.getElementById('rmAID').innerHTML = this.learning.numberOfRooms - this.learning.roomsOccupied;
+    document.getElementById('rmTotal').innerHTML = this.learning.numberOfRooms;
+    //document.getElementById('drt').value = this.learning.Duration;
     this.currentLocation = 'learning'
         //checks if room is full
     if((this.learning.numberOfRooms - this.learning.roomsOccupied)===0){
@@ -92,12 +92,12 @@ roomApp.prototype.showLearningFunction = function(){
 
   roomApp.prototype.showWorkingFunction = function(){  
     console.log(this.working.numberOfRooms - this.working.roomsOccupied)
-    document.getElementById('locID').value = this.working.location;
-    document.getElementById('numID').value = this.working.numberOfSeats;
-    document.getElementById('rmOID').value = this.working.roomsOccupied;
-    document.getElementById('rmAID').value = this.working.numberOfRooms - this.working.roomsOccupied;
-    document.getElementById('rmTotal').value = this.working.numberOfRooms;    
-    document.getElementById('drt').value = this.working.Duration;
+    document.getElementById('locID').innerHTML = this.working.location;
+    document.getElementById('numID').innerHTML = this.working.numberOfSeats;
+    document.getElementById('rmOID').innerHTML = this.working.roomsOccupied;
+    document.getElementById('rmAID').innerHTML = this.working.numberOfRooms - this.working.roomsOccupied;
+    document.getElementById('rmTotal').innerHTML = this.working.numberOfRooms;    
+    //document.getElementById('drt').value = this.working.Duration;
     this.currentLocation = 'working'
     //checks if room is full
     if((this.working.numberOfRooms - this.working.roomsOccupied)===0){

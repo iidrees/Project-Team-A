@@ -1,4 +1,5 @@
 function roomApp(){
+alert('fdhfjdbjhbdhfbd')
  this.meetings = {'location':'1st Floor', 'numberOfSeats':12, 'roomsOccupied':2, 'Duration':12, 'numberOfRooms':5}
   this.games = {'location':'2nd Floor', 'numberOfSeats':12, 'roomsOccupied':1, 'Duration':12, 'numberOfRooms':2}
   this.quiteTime = {'location':'3rd Floor', 'numberOfSeats':12, 'roomsOccupied':1, 'Duration':12, 'numberOfRooms':10}

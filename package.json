@@ -1,0 +1,19 @@
+{
+  "name": "room_checking_app",
+  "version": "1.0.0",
+  "description": "An App that shows the users what rooms are available and which ones are occupied and unoccupied",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iidrees/Project-Team-A.git"
+  },
+  "author": "Idrees Ibraheem, Temi Noah, Tyonum Peter, Adetunji Adefemi, Franklin Ajaps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iidrees/Project-Team-A/issues"
+  },
+  "homepage": "https://github.com/iidrees/Project-Team-A#readme"
+}
